@@ -1,0 +1,6 @@
+@S2M.App_HostAddress = http://localhost:5255
+
+GET {{S2M.App_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

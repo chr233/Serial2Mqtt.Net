@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<InvariantGlobalization>true</InvariantGlobalization>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" />
+		<PackageReference Include="NLog.Extensions.Logging" />
+		<PackageReference Include="Swashbuckle.AspNetCore" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\S2M.Infrastructure\S2M.Infrastructure.csproj" />
+		<ProjectReference Include="..\S2M.Service\S2M.Service.csproj" />
+	</ItemGroup>
+
+</Project>
